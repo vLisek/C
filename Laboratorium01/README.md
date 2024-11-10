@@ -1,7 +1,7 @@
 # 📚 Zadania w języku C
 
 ## 📝 Opis
-To repozytorium zawiera rozwiązanie zadań z Laboratorium 1. Wszystkie zadania znajdują się w osobnych plikach (z rozszerzeniem .c). Dodatkowo dodałem plik ze wszystkimi zadaniami w `All.c`.  
+To repozytorium zawiera rozwiązanie zadań z Laboratorium 1. Wszystkie zadania znajdują się w osobnych plikach `(z rozszerzeniem .c)`. Dodatkowo dodałem plik ze wszystkimi zadaniami w `All.c`.  
 
 ## 📂 Zadania
 

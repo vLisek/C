@@ -1,7 +1,7 @@
 // -------------------- Zadanie 1 --------------------
 // |                                                 |
 // |  Napisać program, który wypisuje na konsolę nr  |
-// |  albumu studenta(osoby rozwiązującej program).  |
+// |  albumu studenta (osoby rozwiązującej program). |
 // |                                                 |
 // |              Autor: Filip Lisowski              |
 // ---------------------------------------------------

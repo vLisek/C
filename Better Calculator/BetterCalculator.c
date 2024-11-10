@@ -1,7 +1,7 @@
 // -----------------------------------------
 // 
 //       Better Calculator Project
-//		  Author:  Filip Lisowski
+//	  Author:  Filip Lisowski
 //
 // -----------------------------------------
 

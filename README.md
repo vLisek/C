@@ -31,13 +31,3 @@ C - jedyny język programowania używany w tym repozytorium.
 
 ## 🚀 Dalszy rozwój
 W przyszłości planuję dodać więcej projektów oraz poprawić istniejące aplikacje.
-
-```c
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-```
-asd

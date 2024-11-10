@@ -8,20 +8,20 @@
 // ---------------------------------------------------
 
 int main() {
-  int Num2;
-  printf("Zadanie 2.\n");
-  printf("Podaj liczbę całkowitą: ");
-  scanf_s("%d", &Num2);
-  
-  if (Num2 % 2 == 0) {
-      printf("\nLiczba jest parzysta.\n");
-  }
-  else {
-      printf("\nLiczba jest nieparzysta.\n");
-  }
-  
-  system("pause");
-  printf("\n\n");
-  
-  return 0;
+    int Num2;
+    printf("Zadanie 2.\n");
+    printf("Podaj liczbę całkowitą: ");
+    scanf_s("%d", &Num2);
+    
+    if (Num2 % 2 == 0) {
+        printf("\nLiczba jest parzysta.\n");
+    }
+    else {
+        printf("\nLiczba jest nieparzysta.\n");
+    }
+    
+    system("pause");
+    printf("\n\n");
+    
+    return 0;
 }

@@ -17,6 +17,6 @@ int main() {
 }
 ```
 
-<br></br>
+</br>
 ### 2. Parzystość Liczb
 Program, który sprawdza, czy podana liczba całkowita, wczytana z klawiatury jest parzysta, czy nieparzysta.

@@ -85,7 +85,7 @@ int main() {
 
 <br></br>
 ### 5. Kalkulator (dodałem również podpunkty z zadania dla chętnych)
-Program wykonujący działanie matematyczne (+, -, /, *) na dwóch liczbach podanych z klawiatury, wykorzystując instrukcję switch. Wyznaczanie pierwiastek kwadratowy za pomocą `sqrt()` z `math.h`, podnieś liczbę do potęgi używając pow(a, b), oblicz wartość bezwzględną za pomocą abs() lub przez sprawdzenie if (a < 0) a = -a;, a także oblicz funkcje trygonometryczne takie jak sin(), cos(), tan() i atan() z math.h, pamiętając, aby przeliczyć kąt z stopni na radiany
+Program wykonujący działanie matematyczne `(+, -, /, *)` na dwóch liczbach podanych z klawiatury, wykorzystując instrukcję switch. Wyznaczanie pierwiastek kwadratowy za pomocą `sqrt()` z `math.h`, podnieś liczbę do potęgi używając `pow(a, b)`, oblicz wartość bezwzględną za pomocą `abs()` lub przez sprawdzenie `if (a < 0) a = -a;`, a także oblicz funkcje trygonometryczne takie jak `sin()`, `cos()`, `tan()` i `atan()` z `math.h`, pamiętając, aby przeliczyć kąt z stopni na radiany.
 
 ```c
 // -----------------------------------------

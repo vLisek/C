@@ -1,4 +1,4 @@
-# 📚 Projekty C++
+# 📚 Projekty C
 
 Witaj w repozytorium projektów w języku C++. Znajdziesz tutaj różnorodne przykłady i aplikacje, które ilustrują zastosowanie języka C++ w różnych dziedzinach.
 
@@ -13,7 +13,7 @@ Witaj w repozytorium projektów w języku C++. Znajdziesz tutaj różnorodne prz
 
 ## 📝 Opis repozytorium
 
-To repozytorium ma na celu prezentację różnych projektów w języku C++.
+To repozytorium ma na celu prezentację różnych projektów w języku C.
 
 ## 📂 Lista projektów
 

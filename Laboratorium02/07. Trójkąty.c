@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     SetConsoleOutputCP(1250);
     

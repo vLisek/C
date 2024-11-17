@@ -7,7 +7,11 @@
 // |              Autor: Filip Lisowski              |
 // ---------------------------------------------------
 
+#include <stdio.h>
+
 int main() {
+    SetConsoleOutputCP(1250);
+    
     int Num2;
     printf("Zadanie 2.\n");
     printf("Podaj liczbę całkowitą: ");

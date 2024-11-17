@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+    SetConsoleOutputCP(1250);
+    
     float Num3_1, Num3_2;
     printf("Zadanie 3.\n");
     printf("Podaj pierwszą liczbę: ");

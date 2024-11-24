@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
     SetConsoleOutputCP(1250);
@@ -11,9 +13,9 @@ int main() {
     // |                                                 |
     // |              Autor: Filip Lisowski              |
     // ---------------------------------------------------
-
+    
     printf("Zadanie 3.\n");
-
+    
     int Var_C;
     int Sum_C = 0;
     

@@ -14,18 +14,18 @@ int main() {
 
     printf("Zadanie 3.\n");
 
-    int n;
-    int Sum1 = 0;
+    int b;
+    int Sum2 = 0;
 
     printf("Podaj liczbę n: ");
-    scanf_s("%d", &n);
+    scanf_s("%d", &b);
 
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= b; i++) {
         if (i % 2 == 0) {
-            Sum1 += i;
+            Sum2 += i;
         }
     }
 
-    printf("Suma liczb parzystych w ciągu od 1 do %d: %d\n\n", n, Sum1);
+    printf("Suma liczb parzystych w ciągu od 1 do %d: %d\n\n", b, Sum2);
     return 0;
 }

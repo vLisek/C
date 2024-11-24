@@ -17,42 +17,42 @@ int main() {
 
     printf("Zadanie 1.\n");
 
-    int a = 0;
-    float Num1 = 0;
-    float Sum1 = 0;
-    float Min;
-    float Max;
-    float Avg1;
+    int Var_A = 0;
+    float Num_A = 0;
+    float Sum_A = 0;
+    float Min_A;
+    float Max_A;
+    float Avg_A;
     
 
     do {
         printf("Podaj liczbę: ");
-        scanf_s("%f", &Num1);
-        if (Num1 > 0) {
-            if (a == 0) {
-                Min = Num1;
-                Max = Num1;
+        scanf_s("%f", &Num_A);
+        if (Num_A > 0) {
+            if (Var_A == 0) {
+                Min_A = Num_A;
+                Max_A = Num_A;
             }
             else {
-                if (Min > Num1) {
-                    Min = Num1;
+                if (Min_A > Num_A) {
+                    Min_A = Num_A;
                 }
-                else if (Max < Num1) {
-                    Max = Num1;
+                else if (Max_A < Num_A) {
+                    Max_A = Num_A;
                 } 
             }
 
-            Sum1 += Num1;
-            a++;
+            Sum_A += Num_A;
+            Var_A++;
         }
     } 
-    while (Num1 > 0);
+    while (Num_A > 0);
     
-    if (a > 0) {
-        Avg1 = Sum1 / (float)a;
-        printf("\nSuma liczb: %.2lf\n", Sum1);
-        printf("Największa liczba: %.2lf\n", Max);
-        printf("Najmniejsza liczba: %.2lf\n", Min);
+    if (Var_A > 0) {
+        Avg_A = Sum_A / (float)Var_A;
+        printf("\nSuma liczb: %.2lf\n", Sum_A);
+        printf("Największa liczba: %.2lf\n", Max_A);
+        printf("Najmniejsza liczba: %.2lf\n", Min_A);
     }
     else {
         printf("Nie podano liczb dodatnich.\n");
@@ -75,28 +75,31 @@ int main() {
 
     printf("Zadanie 2.\n");
 
-    int Num2, SumPos = 0, SumNeg = 0;
-    int NumPos = 0, NumNeg = 0;
+    int Num_B; 
+    int SumPos_B = 0; 
+    int SumNeg_B = 0;
+    int NumPos_B = 0; 
+    int NumNeg_B = 0;
 
     for (int i = 0; i < 10; i++) {
         printf("Podaj liczbę %d: ", i + 1);
-        scanf_s("%d", &Num2);
+        scanf_s("%d", &Num_B);
 
-        if (Num2 > 0) {
-            SumPos += Num2;
-            NumPos++;
+        if (Num_B > 0) {
+            SumPos_B += Num_B;
+            NumPos_B++;
         }
-        else if (Num2 < 0) {
-            SumNeg += Num2;
-            NumNeg++;
+        else if (Num_B < 0) {
+            SumNeg_B += Num_B;
+            NumNeg_B++;
         }
     }
 
-    printf("\nIlość liczb dodatnich: %d\n", NumPos);
-    printf("Suma liczb dodatnich: %d\n", SumPos);
+    printf("\nIlość liczb dodatnich: %d\n", NumPos_B);
+    printf("Suma liczb dodatnich: %d\n", SumPos_B);
 
-    printf("\nIlość liczb ujemnych: %d\n", NumNeg);
-    printf("Suma liczb ujemnych: %d\n", SumNeg);
+    printf("\nIlość liczb ujemnych: %d\n", NumNeg_B);
+    printf("Suma liczb ujemnych: %d\n", SumNeg_B);
 
     system("pause");
     printf("\n\n");
@@ -115,19 +118,19 @@ int main() {
 
     printf("Zadanie 3.\n");
 
-    int b;
-    int Sum2 = 0;
+    int Var_C;
+    int Sum_C = 0;
 
     printf("Podaj liczbę n: ");
-    scanf_s("%d", &b);
+    scanf_s("%d", &Var_C);
 
-    for (int i = 1; i <= b; i++) {
+    for (int i = 1; i <= Var_C; i++) {
         if (i % 2 == 0) {
-            Sum2 += i;
+            Sum_C += i;
         }
     }
 
-    printf("Suma liczb parzystych w ciągu od 1 do %d: %d\n\n", b, Sum2);
+    printf("Suma liczb parzystych w ciągu od 1 do %d: %d\n\n", Var_C, Sum_C);
 
     system("pause");
     printf("\n\n");
@@ -148,26 +151,26 @@ int main() {
 
     printf("Zadanie 4.\n");
 
-    int c;
-    int Num3;
-    int Sum3 = 0;
+    int Var_D;
+    int Num_D;
+    int Sum_D = 0;
 
     printf("Podaj liczbę n (liczba elementów w ciągu): ");
-    scanf_s("%d", &c);
+    scanf_s("%d", &Var_D);
 
     srand(time(0));
 
-    for (int i = 0; i < c; i++) {
-        Num3 = rand() % 56 - 10;
+    for (int i = 0; i < Var_D; i++) {
+        Num_D = rand() % 56 - 10;
 
-        if (Num3 % 2 == 0) {
-            Sum3 += Num3;
+        if (Num_D % 2 == 0) {
+            Sum_D += Num_D;
         }
 
-        printf("Wylosowana liczba %d: %d\n", i + 1, Num3);
+        printf("Wylosowana liczba %d: %d\n", i + 1, Num_D);
     }
 
-    printf("Suma liczb parzystych: %d\n", Sum3);
+    printf("Suma liczb parzystych: %d\n", Sum_D);
 
     system("pause");
     printf("\n\n");
@@ -188,25 +191,25 @@ int main() {
 
     printf("Zadanie 5.\n");
 
-    int Students;
-    int Sum4 = 0;
-    int Points;
-    int d = 0;
-    float Avg;
+    int Students_E;
+    int Sum_E = 0;
+    int Pt_E;
+    int Var_E = 0;
+    float Avg_E;
 
     printf("Podaj liczbę studentów: ");
-    scanf_s("%d", &Students);
+    scanf_s("%d", &Students_E);
 
-    while (d < Students) {
-        printf("Podaj punkty studenta %d: ", d + 1);
-        scanf_s("%d", &Points);
-        Sum4 += Points;
-        d++;
+    while (Var_E < Students_E) {
+        printf("Podaj punkty studenta %d: ", Var_E + 1);
+        scanf_s("%d", &Pt_E);
+        Sum_E += Pt_E;
+        Var_E++;
     }
         
-    Avg = (float)Sum4 / Students;
+    Avg_E = (float)Sum_E / Students_E;
 
-    printf("Średnia liczba punktów: %.2f\n\n", Avg);
+    printf("Średnia liczba punktów: %.2f\n\n", Avg_E);
 
     system("pause");
     printf("\n\n");

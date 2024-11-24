@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int Zadanie_3() {
     SetConsoleOutputCP(1250);
 
     // -------------------- Zadanie 3 --------------------

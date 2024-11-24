@@ -17,42 +17,42 @@ int main() {
 
     printf("Zadanie 1.\n");
 
-    int a = 0;
-    float Num1 = 0;
-    float Sum1 = 0;
-    float Min;
-    float Max;
-    float Avg1;
+    int Var_A = 0;
+    float Num_A = 0;
+    float Sum_A = 0;
+    float Min_A;
+    float Max_A;
+    float Avg_A;
     
 
     do {
         printf("Podaj liczbę: ");
-        scanf_s("%f", &Num1);
-        if (Num1 > 0) {
-            if (a == 0) {
-                Min = Num1;
-                Max = Num1;
+        scanf_s("%f", &Num_A);
+        if (Num_A > 0) {
+            if (Var_A == 0) {
+                Min_A = Num_A;
+                Max_A = Num_A;
             }
             else {
-                if (Min > Num1) {
-                    Min = Num1;
+                if (Min_A > Num_A) {
+                    Min_A = Num_A;
                 }
-                else if (Max < Num1) {
-                    Max = Num1;
+                else if (Max_A < Num_A) {
+                    Max_A = Num_A;
                 } 
             }
 
-            Sum1 += Num1;
-            a++;
+            Sum_A += Num_A;
+            Var_A++;
         }
     } 
-    while (Num1 > 0);
+    while (Num_A > 0);
     
-    if (a > 0) {
-        Avg1 = Sum1 / (float)a;
-        printf("\nSuma liczb: %.2lf\n", Sum1);
-        printf("Największa liczba: %.2lf\n", Max);
-        printf("Najmniejsza liczba: %.2lf\n", Min);
+    if (Var_A > 0) {
+        Avg_A = Sum_A / (float)Var_A;
+        printf("\nSuma liczb: %.2lf\n", Sum_A);
+        printf("Największa liczba: %.2lf\n", Max_A);
+        printf("Najmniejsza liczba: %.2lf\n", Min_A);
     }
     else {
         printf("Nie podano liczb dodatnich.\n");

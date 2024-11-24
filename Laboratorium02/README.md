@@ -38,7 +38,7 @@ int i, j;
         printf("\n");
     }
 ```
-
+```
 Przykład 1:        Przykład 2:        Przykład 3:        Przykład 4:
                                                          
 XXXXXXXXXX                  X          XXXXXXXXXX                 XX
@@ -51,3 +51,4 @@ XXXX                  XXXXXXX                XXXX           XXXXXXXXXXXXXX
 XXX                  XXXXXXXX                 XXX          XXXXXXXXXXXXXXXX
 XX                  XXXXXXXXX                  XX         XXXXXXXXXXXXXXXXXX
 X                  XXXXXXXXXX                   X        XXXXXXXXXXXXXXXXXXXX
+```

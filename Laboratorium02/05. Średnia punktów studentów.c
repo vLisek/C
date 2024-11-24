@@ -1,7 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-int main() {
+int Zadanie_5() {
     SetConsoleOutputCP(1250);
+    
     // -------------------- Zadanie 5 --------------------
     // |                                                 |
     // |  Grupa laboratoryjna składa się z n studentów   |
@@ -14,25 +17,25 @@ int main() {
     // ---------------------------------------------------
 
 
-    int studenci;
-    int suma = 0;
-    int punkt;
-    int i = 0;
-    float srednia;
-
-    printf("Podaj liczbe studentow: ");
-    scanf_s("%d", &studenci);
-
-    while (i < studenci) {
-        printf("Podaj punkty studenta %d: ", i + 1);
-        scanf_s("%d", &punkt);
-        suma += punkt;
-        i++;
+    int Students_E;
+    int Sum_E = 0;
+    int Pt_E;
+    int Var_E = 0;
+    float Avg_E;
+    
+    printf("Podaj liczbę studentów: ");
+    scanf_s("%d", &Students_E);
+    
+    while (Var_E < Students_E) {
+        printf("Podaj punkty studenta %d: ", Var_E + 1);
+        scanf_s("%d", &Pt_E);
+        Sum_E += Pt_E;
+        Var_E++;
     }
-
-    srednia = (float)suma / studenci;
-
-    printf("Srednia liczba punktow: %.2f\n", srednia);
+        
+    Avg_E = (float)Sum_E / Students_E;
+    
+    printf("Średnia liczba punktów: %.2f\n\n", Avg_E);
  
     return 0;
 }

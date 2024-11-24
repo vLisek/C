@@ -24,6 +24,7 @@ int main() {
     float Max;
     float Avg1;
     
+
     do {
         printf("Podaj liczbę: ");
         scanf_s("%f", &Num1);
@@ -44,7 +45,9 @@ int main() {
             Sum1 += Num1;
             a++;
         }
-    } while (Num1 > 0);
+    } 
+    while (Num1 > 0);
+    
     if (a > 0) {
         Avg1 = Sum1 / (float)a;
         printf("\nSuma liczb: %.2lf\n", Sum1);
@@ -52,7 +55,7 @@ int main() {
         printf("Najmniejsza liczba: %.2lf\n", Min);
     }
     else {
-        printf("Nie podano liczb dodatnich.");
+        printf("Nie podano liczb dodatnich.\n");
     }
     
     system("pause");
@@ -69,6 +72,8 @@ int main() {
     // |                                                 |
     // |              Autor: Filip Lisowski              |
     // ---------------------------------------------------
+
+    printf("Zadanie 2.\n");
 
     int Num2, SumPos = 0, SumNeg = 0;
     int NumPos = 0, NumNeg = 0;
@@ -141,11 +146,13 @@ int main() {
     // |              Autor: Filip Lisowski              |
     // ---------------------------------------------------
 
+    printf("Zadanie 4.\n");
+
     int c;
     int Num3;
     int Sum3 = 0;
 
-    printf("Podaj liczbe n (liczba elementow w ciagu): ");
+    printf("Podaj liczbę n (liczba elementów w ciągu): ");
     scanf_s("%d", &c);
 
     srand(time(0));
@@ -187,19 +194,19 @@ int main() {
     int d = 0;
     float Avg;
 
-    printf("Podaj liczbe studentow: ");
+    printf("Podaj liczbę studentów: ");
     scanf_s("%d", &Students);
 
     while (d < Students) {
         printf("Podaj punkty studenta %d: ", d + 1);
         scanf_s("%d", &Points);
-        Sum3 += Points;
+        Sum4 += Points;
         d++;
     }
         
     Avg = (float)Sum4 / Students;
 
-    printf("Srednia liczba punktow: %.2f\n\n", Avg);
+    printf("Średnia liczba punktów: %.2f\n\n", Avg);
 
     system("pause");
     printf("\n\n");

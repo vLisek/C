@@ -11,7 +11,7 @@ void Multiple(char* Sign, int* NumberOfRepetitions) {
 int main() {
     SetConsoleOutputCP(1250);
 
-    printf("Zadanie 4.\n\n");
+    printf("Zadanie 6.\n\n");
 
     char Sign = 'X';
     int Repetitions;

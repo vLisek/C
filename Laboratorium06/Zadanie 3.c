@@ -5,7 +5,7 @@
 int main() {
     SetConsoleOutputCP(1250);
 
-    printf("Zadanie 2.\n\n");
+    printf("Zadanie 3.\n\n");
 
     int VarN;
 

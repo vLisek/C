@@ -52,8 +52,8 @@ int main() {
 	SetConsoleOutputCP(1250);
 
 	// -------------------- Zadanie 1 -------------------- 
-	// | Napisz program, który wyznaczy silniê z liczby	 |
-	// | n sposobem rekurencyjnym.						 |
+	// | Napisz program, ktÃ³ry wyznaczy silniÄ™ z liczby  |
+	// | n sposobem rekurencyjnym.			     |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
 	// --------------------------------------------------- 
@@ -64,11 +64,11 @@ int main() {
 	int Result_A = 1;
 
 	do {
-		printf("Podaj liczbê: ");
+		printf("Podaj liczbÄ™: ");
 		scanf_s("%d", &Var_N);
 
 		if (Var_N < 0) {
-			printf("Silnia nie jest zdefiniowana dla liczb ujemnych! Podaj liczbê wiêksz¹ lub równ¹ 0.\n");
+			printf("Silnia nie jest zdefiniowana dla liczb ujemnych! Podaj liczbÄ™ wiÄ™kszÅ¡ lub rÃ³wnÅ¡ 0.\n");
 		}
 	} while (Var_N < 0);
 
@@ -84,8 +84,8 @@ int main() {
 	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	// -------------------- Zadanie 2 -------------------- 
-	// | Napisz program wyznaczaj¹cy n-ty wyraz ci¹gu    |
-	// | zdefiniowanego przez nastêpuj¹cy wzór			 |
+	// | Napisz program wyznaczajÅ¡cy n-ty wyraz ciÅ¡gu    |
+	// | zdefiniowanego przez nastÄ™pujÅ¡cy wzÃ³r			 |
 	// | rekurencyjny.									 |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
@@ -111,8 +111,8 @@ int main() {
 	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	// -------------------- Zadanie 3 -------------------- 
-	// | Napisz program wyznaczaj¹cy NWD(a, b) metod¹    |
-	// | rekurencyjn¹.									 |
+	// | Napisz program wyznaczajÅ¡cy NWD(a, b) metodÅ¡    |
+	// | rekurencyjnÅ¡.									 |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
 	// --------------------------------------------------- 
@@ -121,15 +121,15 @@ int main() {
 
 	printf("Zadanie 3.\n");
 
-	printf("Podaj pierwsz¹ liczbê (a): ");
+	printf("Podaj pierwszÅ¡ liczbÄ™ (a): ");
 	scanf_s("%d", &Var_A);
 
-	printf("Podaj drug¹ liczbê (b): ");
+	printf("Podaj drugÅ¡ liczbÄ™ (b): ");
 	scanf_s("%d", &Var_B);
 
 	int Result = NWD(Var_A, Var_B);
 
-	printf("Najwiêkszy wspólny dzielnik wynosi %d.\n", Result);
+	printf("NajwiÄ™kszy wspÃ³lny dzielnik wynosi %d.\n", Result);
 
 	printf("\n");
 
@@ -139,9 +139,9 @@ int main() {
 	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	// -------------------- Zadanie 5 -------------------- 
-	// | Wykorzystuj¹c funkcjê rekurencyjn¹ napisz		 |
-	// | program wykonuj¹cy zamianê liczby w systemie    |
-	// | dziesiêtnym na system dwójkowym.				 |
+	// | WykorzystujÅ¡c funkcjÄ™ rekurencyjnÅ¡ napisz		 |
+	// | program wykonujÅ¡cy zamianÄ™ liczby w systemie    |
+	// | dziesiÄ™tnym na system dwÃ³jkowym.				 |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
 	// --------------------------------------------------- 
@@ -150,15 +150,15 @@ int main() {
 
 	int Num_A;
 
-	printf("Podaj liczbê dziesiêtn¹: ");
+	printf("Podaj liczbÄ™ dziesiÄ™tnÅ¡: ");
 	scanf_s("%d", &Num_A);
 
 	if (Num_A == 0) {
-		printf("Liczba 0 w systemie dziesiêtnym zapisana w systemie dwójkowym wynosi 0 \n");
+		printf("Liczba 0 w systemie dziesiÄ™tnym zapisana w systemie dwÃ³jkowym wynosi 0 \n");
 		return 1;
 	}
 
-	printf("Liczba %d w systemie dziesiêtnym zapisana w systemie dwójkowym wynosi: ", Num_A);
+	printf("Liczba %d w systemie dziesiÄ™tnym zapisana w systemie dwÃ³jkowym wynosi: ", Num_A);
 
 	ConvertToBinary(Num_A);
 
@@ -170,7 +170,7 @@ int main() {
 	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	// -------------------- Zadanie 6 -------------------- 
-	// | Napisz funkcjê rekurencyjn¹ wyznaczaj¹c¹ ci¹g   |
+	// | Napisz funkcjÄ™ rekurencyjnÅ¡ wyznaczajÅ¡cÅ¡ ciÅ¡g   |
 	// | Fibonacciego.									 |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
@@ -180,14 +180,14 @@ int main() {
 
 	int Var_D;
 
-	printf("Podaj wyraz ci¹gu Fibonacciego: ");
+	printf("Podaj wyraz ciÅ¡gu Fibonacciego: ");
 	scanf_s("%d", &Var_D);
 
 	if (Var_D < 0) {
-		printf("Wyraz ci¹gu Fibonacciego nie mo¿e byæ mniejszy od 0. \n");
+		printf("Wyraz ciÅ¡gu Fibonacciego nie moÅ¼e byÄ‡ mniejszy od 0. \n");
 	}
 	else {
-		printf("%d wyraz ci¹gu Fibonacciego wynosi: %d \n", Var_D, Fibonacci(Var_D));
+		printf("%d wyraz ciÅ¡gu Fibonacciego wynosi: %d \n", Var_D, Fibonacci(Var_D));
 	}
 
 	printf("\n\n");
@@ -198,9 +198,9 @@ int main() {
 	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	// -------------------- Zadanie 7 -------------------- 
-	// | Wykorzystuj¹c funkcjê rekurencyjn¹ napisz		 |
-	// | program wykonuj¹cy zamianê liczby w systemie    |
-	// | dziesiêtnym na system dwójkowym.				 |
+	// | WykorzystujÅ¡c funkcjÄ™ rekurencyjnÅ¡ napisz		 |
+	// | program wykonujÅ¡cy zamianÄ™ liczby w systemie    |
+	// | dziesiÄ™tnym na system dwÃ³jkowym.				 |
 	// |                                                 |
 	// |              Autor: Filip Lisowski              |
 	// --------------------------------------------------- 
@@ -209,15 +209,15 @@ int main() {
 
 	int Num_A;
 
-	printf("Podaj liczbê dziesiêtn¹: ");
+	printf("Podaj liczbÄ™ dziesiÄ™tnÅ¡: ");
 	scanf_s("%d", &Num_A);
 
 	if (Num_A == 0) {
-		printf("Liczba 0 w systemie dziesiêtnym zapisana w systemie dwójkowym wynosi 0 \n");
+		printf("Liczba 0 w systemie dziesiÄ™tnym zapisana w systemie dwÃ³jkowym wynosi 0 \n");
 		return 1;
 	}
 
-	printf("Liczba %d w systemie dziesiêtnym zapisana w systemie dwójkowym wynosi: ", Num_A);
+	printf("Liczba %d w systemie dziesiÄ™tnym zapisana w systemie dwÃ³jkowym wynosi: ", Num_A);
 
 	ConvertToBinary(Num_A);
 

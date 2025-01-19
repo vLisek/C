@@ -14,7 +14,14 @@ int main() {
 
     printf("Zadanie 5.\n\n");
 
-    int liczba = 13, potega = 2;
+    int liczba; 
+    int potega;
+
+    printf("Podaj liczbę: ");
+    scanf_s("%d", &liczba);
+    printf("Podaj wykładnik potęgi: ");
+    scanf_s("%d", &potega);
+
     printf("Liczba %d podniesiona do %d potęgi wynosi ", liczba, potega);
 
     int* wynik = Power(&liczba, potega);
